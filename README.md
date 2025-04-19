@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Healthaware - Mental Health Assessment Platform
+
+Healthaware is a web application for mental health assessment and tracking. It provides users with personalized insights into their mental well-being through AI-powered analysis.
+
+## Features
+
+- **User Authentication:** Secure signup and login system
+- **Mental Health Assessment:** Comprehensive questionnaire covering key mental health factors
+- **Personalized Analysis:** AI-powered insights based on user responses
+- **Results Dashboard:** Intuitive visualization of assessment results
+- **Responsive Design:** Works on desktop, tablet, and mobile devices
+
+## Tech Stack
+
+- **Frontend:** Next.js 14, React, TypeScript
+- **Styling:** Tailwind CSS
+- **Design Patterns:** Neumorphism, Glassmorphism, and Skeuomorphism
+- **Animation:** Framer Motion
+- **Icons:** React Icons
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- Yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/healthaware.git
+   cd healthaware
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   yarn install
+   ```
+
+3. Start the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/` - Next.js App Router structure
+- `src/app/page.tsx` - Landing page
+- `src/app/login/` - Login page
+- `src/app/signup/` - Signup page
+- `src/app/dashboard/` - Protected dashboard area
+- `src/contexts/` - React contexts (Auth)
+- `src/types/` - TypeScript type definitions
 
-## Learn More
+## Future Enhancements
 
-To learn more about Next.js, take a look at the following resources:
+- Integration with OpenAI API for more advanced analysis
+- User data history and trend visualization
+- Appointment scheduling with mental health professionals
+- Community support features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+## Acknowledgments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- This project is for educational purposes and is not a substitute for professional mental health advice
+- Icons and illustrations from various free sources
+- Design inspiration from modern health applications
