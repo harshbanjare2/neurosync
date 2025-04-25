@@ -32,7 +32,7 @@ const defaultAuthContext: AuthContextType = {
   login: async () => null,
   signup: async () => null,
   loginWithSocial: async () => null,
-  logout: () => {},
+  logout: async () => {},
 };
 
 // Create context
